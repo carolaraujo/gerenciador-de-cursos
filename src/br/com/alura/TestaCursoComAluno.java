@@ -33,6 +33,7 @@ public class TestaCursoComAluno {
 		while(iterador.hasNext()) {
 			Aluno proximo = iterador.next();
 			System.out.println(proximo);
+			
 		}
 
 		
