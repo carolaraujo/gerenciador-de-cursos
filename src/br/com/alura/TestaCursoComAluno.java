@@ -33,5 +33,9 @@ public class TestaCursoComAluno {
 		
 		System.out.println("O a1 é equls ao Turini?");
 		System.out.println(a1.equals(turini));
+		
+		//obrigatoriamento o seguinte é true;
+		
+		System.out.println(a1.hashCode() == turini.hashCode());
 	}
 }
